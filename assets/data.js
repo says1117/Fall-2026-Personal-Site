@@ -21,7 +21,7 @@ const PROFILE = {
   firstName: 'Steven',
   lastName: 'Yodice-Smith',
   tagline:
-    'Computer Science @ UCF. I am passionate about build systems that convert real world problems into software integrated solutions.',
+    'Computer Science @ UCF. Passionate about building systems that convert real world problems into software integrated solutions.',
   kicker: 'Orlando, FL · Software Engineer',
   links: [
     { label: 'Email', url: 'mailto:saysschool4321@gmail.com', text: 'saysschool4321@gmail.com' },
