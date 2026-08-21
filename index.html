@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Steven Yodice-Smith — Software Engineer</title>
+  <meta name="description" content="Computer Science student at UCF building real-time vision, distributed systems, and open source contributions." />
+  <meta name="color-scheme" content="dark light" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='serif'>S</text></svg>" />
+
+  <!-- Avoid a light/dark flash before CSS paints -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#panels">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="glow" aria-hidden="true"></div>
+
+  <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme">
+    <span class="theme-toggle__dot"></span>
+    <span class="theme-toggle__label" id="themeLabel">dark</span>
+  </button>
+
+  <div class="shell">
+    <header class="hero" id="hero">
+      <p class="hero__kicker mono" id="heroKicker"></p>
+      <h1 class="hero__name" id="heroName"></h1>
+      <p class="hero__tagline" id="heroTagline"></p>
+      <nav class="hero__links" id="heroLinks" aria-label="Contact"></nav>
+    </header>
+
+    <main>
+      <div class="tabbar" id="tabbar">
+        <div class="tabbar__inner">
+          <div class="tabs" id="tabs" role="tablist" aria-label="Sections">
+            <span class="tabs__indicator" id="tabIndicator" aria-hidden="true"></span>
+          </div>
+        </div>
+      </div>
+
+      <div id="panels" tabindex="-1"></div>
+    </main>
+
+    <footer class="footer">
+      <span class="mono">© <span id="year"></span> Steven Yodice-Smith</span>
+      <span class="mono footer__hint">←/→ to switch tabs</span>
+    </footer>
+  </div>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
