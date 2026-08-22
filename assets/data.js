@@ -25,12 +25,11 @@ const PROFILE = {
   kicker: 'Orlando, FL · Software Engineer',
   links: [
     { label: 'Email', url: 'mailto:saysschool4321@gmail.com', text: 'saysschool4321@gmail.com' },
-    { label: 'Phone', url: 'tel:+14079136050', text: '407-913-6050' },
     { label: 'GitHub', url: 'https://github.com/says1117', text: 'says1117' },
     { label: 'LinkedIn', url: 'http://www.linkedin.com/in/stevenyodice-smith', text: 'stevenyodice-smith' },
   ],
   // Drop a PDF next to index.html and this button appears in the header.
-  resume: { label: 'Résumé', url: 'Steven_Resume.pdf' },
+  resume: { label: 'Résumé', url: 'Steven_Resume_8_21_2026.pdf' },
 };
 
 const TABS = [
@@ -52,7 +51,8 @@ const TABS = [
         tags: ['C, C++'],
         links: [{label: 'Website', url: 'http://genome.ucf.edu/index.php'}],
         points: [
-          '',
+          'Diagnosed and fixed correctness bugs in a C++ implementation of the Positional Burrows–Wheeler Transform (PBWT) for genomic haplotype matching, validating output against ground-truth data across multiple match-length thresholds',
+          'Currently developing algorithms to identify long shared haplotype segments across large genomic cohorts',
         ],
       },
       {
@@ -92,7 +92,8 @@ const TABS = [
         title: 'AutoBot',
         subtitle: 'AI-Integrated Robotics harnessed using Grok',
         tags: ['Python', 'C++', 'CUDA', 'YAML', 'Bash', 'Dockerfile'],
-        meta: 'In Progess :)',
+        meta: "In Progess! Follow along on GitHub to see what I'm building! :)",
+        links: [{ label: 'GitHub', url: 'https://github.com/says1117/AutoBot' }],
         points: [
           'Architected a dual-system agent stack pairing an LLM reasoning layer (xAI Grok) with learned control policies, using structured function calling for skill dispatch and closed-loop replanning on failure.',
           'Trained PPO reinforcement learning policies in NVIDIA Isaac Sim / Isaac Lab across thousands of GPU-parallel physics environments with domain randomization for robustness.',
@@ -169,6 +170,19 @@ const TABS = [
         subtitle: 'Real-time ASL interpreter, webcam to spoken word',
         tags: ['Python', 'Pynput', 'Pycairo'],
         links: [{ label: 'GitHub', url: 'https://github.com/mwhroom/KeyCursor'}],
+        points: [
+          'Developed Vim keyboard-driven cursor system enabling mouse-free navigation and interaction',
+          'Implemented global keyboard listeners using pynput to capture and process real-time input events',
+          'Designed graphical overlays and cursor rendering with pycairo for visual feedback and precision control',
+          'Collaborated within a 5-member agile team using Git for version control and coordinated feature integration',
+          'Engineered cross-platform compatibility across Windows and Linux environments through modular system abstraction'
+        ],
+      },
+      {
+        title: 'NBody Simulator',
+        subtitle: 'GPU-accelerated N-body gravity simulation',
+        tags: ['CUDA'],
+        links: [{ label: 'GitHub', url: 'https://github.com/says1117/cuda-nbody-simulator'}],
         points: [
           'Developed Vim keyboard-driven cursor system enabling mouse-free navigation and interaction',
           'Implemented global keyboard listeners using pynput to capture and process real-time input events',
