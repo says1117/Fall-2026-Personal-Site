@@ -105,6 +105,49 @@
     return wrap;
   }
 
+  function renderAboutText(block){
+    return el('p', 'about__text', block.text);
+  }
+
+  function renderAboutPhotos(block){
+    const strip = el('div', 'about__photos');
+    (block.photos || []).forEach((photo) => {
+      const figure = el('figure', 'about__photo');
+      const img = el('img');
+      img.src = photo.src;
+      img.alt = photo.alt || '';
+      img.loading = 'lazy';
+      figure.append(img);
+      if(photo.caption)
+        figure.append(el('figcaption', null, photo.caption));
+      strip.append(figure);
+    });
+    return strip;
+  }
+
+  function renderAboutSpotify(){
+    const box = el('div', 'about__spotify');
+    box.textContent = 'Loading recent tracks...';
+    //fetch assets/spotify.json goes here later
+    return box;
+  }
+
+  function renderAbout(about){
+    const wrap = el('div', 'about');
+    (about.content || []).forEach((block) => {
+      if(block.type === 'text'){
+        wrap.append(renderAboutText(block));
+      }
+      else if(block.type === 'photos'){
+        wrap.append(renderAboutPhotos(block));
+      }
+      else if(block.type === 'spotify'){
+        wrap.append(renderAboutSpotify());
+      }
+    });
+    return wrap;
+  }
+
   /* ----------------------------------------------------------------- tabs */
 
   const tabsEl = $('#tabs');
@@ -141,7 +184,12 @@
       panel.append(el('h2', 'visually-hidden', tab.label));
 
       if (tab.note) panel.append(el('p', 'panel__note', tab.note));
-      (tab.entries || []).forEach((entry, n) => panel.append(renderEntry(entry, n)));
+      if (tab.about){
+        panel.append(renderAbout(tab.about));
+      }
+      else{
+        (tab.entries || []).forEach((entry, n) => panel.append(renderEntry(entry, n)));
+      }
 
       panelsEl.append(panel);
       panels.push(panel);
