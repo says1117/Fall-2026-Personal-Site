@@ -259,10 +259,7 @@ const TABS = [
     about: {
       content: [
         {
-          type: 'text', text: 'I am a passionate computer science student at the Univeristy of Central Florida.'
-        },
-        {
-          type: 'text', text: 'I enjoy working on challenging projects and learning new things that can help me grow as a developer and person.'
+          type: 'text', text: 'I am a passionate computer science student at the Univeristy of Central Florida who enjoys working on challenging projects and learning new things that can help me grow as both a developer and person.'
         },
         {
           type: 'text', text: 'Currently, I am learning more about Frontend Development, Machine Learning, Robotics, System Design, and new algorithms to help me in my leetcode grind!'

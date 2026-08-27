@@ -485,12 +485,12 @@ html[data-theme='light'] .tab[aria-selected='true'] { color: var(--surface); }
 }
 
 .about__photo {
-  flex: 0 0 70%;
-  max-width: 320px;
+  flex: 0 0 38%;
+  max-width: 220px;
   scroll-snap-align: center;
   cursor: pointer;
-  opacity: 0.45;
-  transform: scale(0.92);
+  opacity: 0.5;
+  transform: scale(0.82);
   transition: opacity 0.35s var(--ease), transform 0.35s
   var(--ease);
 }
@@ -503,8 +503,10 @@ html[data-theme='light'] .tab[aria-selected='true'] { color: var(--surface); }
 
 .about__photo.is-active {
   opacity: 1;
-  /* scale is 1 meaning that it improves from 92% to 100% */
-  transform: scale(1);
+  /* scale is 1 meaning that it improves from 92% to 112% */
+  transform: scale(1.12);
+  z-index: 2;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
 }
 /* --- motion -------------------------------------------------------------- */
 
