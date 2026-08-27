@@ -110,6 +110,7 @@
   }
 
   function renderAboutPhotos(block){
+
     const strip = el('div', 'about__photos');
     (block.photos || []).forEach((photo) => {
       const figure = el('figure', 'about__photo');
@@ -122,6 +123,8 @@
         figure.append(el('figcaption', null, photo.caption));
       strip.append(figure);
     });
+    //initializes array of photos
+    initPhotoFocus(strip);
     return strip;
   }
 
@@ -146,6 +149,22 @@
       }
     });
     return wrap;
+  }
+
+  function initPhotoFocus(strip){
+    const items = Array.from(strip.children);
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        entry.target.classList.toggle('is-active', entry.intersectionRatio > 0.6);
+      });
+    }, { root: strip, threshold: [0, 0.25, 0.5, 0.6, 0.75, 1]
+    });
+    items.forEach((item) => {
+      observer.observe(item);
+      item.addEventListener('click', () => {
+        item.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest'});
+      });
+    });
   }
 
   /* ----------------------------------------------------------------- tabs */

@@ -475,6 +475,37 @@ html[data-theme='light'] .tab[aria-selected='true'] { color: var(--surface); }
 }
 .footer__hint { opacity: 0.55; }
 
+.about__photos {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 1rem 2rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.about__photo {
+  flex: 0 0 70%;
+  max-width: 320px;
+  scroll-snap-align: center;
+  cursor: pointer;
+  opacity: 0.45;
+  transform: scale(0.92);
+  transition: opacity 0.35s var(--ease), transform 0.35s
+  var(--ease);
+}
+
+.about__photo img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.about__photo.is-active {
+  opacity: 1;
+  /* scale is 1 meaning that it improves from 92% to 100% */
+  transform: scale(1);
+}
 /* --- motion -------------------------------------------------------------- */
 
 @keyframes rise {
