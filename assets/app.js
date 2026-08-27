@@ -112,6 +112,9 @@
   function renderAboutPhotos(block){
 
     const strip = el('div', 'about__photos');
+    if(block.variant) {
+      strip.classList.add('about__photos--' + block.variant);
+    }
     (block.photos || []).forEach((photo) => {
       const figure = el('figure', 'about__photo');
       const img = el('img');
