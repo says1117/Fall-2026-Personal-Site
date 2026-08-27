@@ -252,6 +252,17 @@ const TABS = [
     ],
   },
 
+  {
+    id: 'about',
+    label: 'About',
+    entries: [
+      {
+        title: 'About Me',
+        note: 'A brief introduction about myself.',
+      }
+    ]
+  }
+
   /* ------------------------------------------------------------------------
      ADD A NEW TAB: uncomment, rename, done. It appears in the tab bar
      automatically and gets its own #hash URL.
