@@ -255,13 +255,70 @@ const TABS = [
   {
     id: 'about',
     label: 'About',
-    entries: [
-      {
-        title: 'About Me',
-        note: 'A brief introduction about myself.',
-      }
-    ]
-  }
+    note: 'A brief introduction about myself.',
+    about: {
+      content: [
+        {
+          type: 'text', text: 'I am a passionate computer science student at the Univeristy of Central Florida.'
+        },
+        {
+          type: 'text', text: 'I enjoy working on challenging projects and learning new things that can help me grow as a developer and person.'
+        },
+        {
+          type: 'text', text: 'Currently, I am learning more about Frontend Development, Machine Learning, Robotics, System Design, and new algorithms to help me in my leetcode grind!'
+        },
+        {
+          type: 'photos', //photos to be added in a scrollable collage
+            photos: [
+          {
+            src: 'path/to/photo.jpg',
+            alt: 'Photo description',
+            caption: 'Optional caption for the photo',
+          },
+          {
+            src: 'path/to/another-photo.jpg',
+            alt: 'Another photo description',
+            caption: 'Optional caption for the second photo',
+          },
+          {
+            src: 'path/to/third-photo.jpg',
+            alt: 'Third photo description',
+            caption: 'Optional caption for the third photo',
+          }
+          ]
+        },
+        {
+          type: 'text', text: 'Beyond the workplace, I enjoy exploring new places in Central Florida, whether it be great, natural views, times with family and friends, or trying out new restaurants (the best).'
+        },
+        {
+          type: 'text', text: 'I also really enjoy going to the gym to physically challenge myself, and take pride in learning more about fitness and training (self proclaimed science-based lifter).'
+        },
+        {
+          type: 'text', text: 'When not working on projects, I enjoy spending time online playing games.'
+        },
+        {
+          type: 'text', text: 'The current games in my lineup are as follows:'
+        },
+        {
+          type: 'photos', photos: [
+            {
+              src: 'path/to/game-screenshot.jpg',
+              alt: 'Game screenshot description',
+              caption: 'Optional caption for the game screenshot',
+            },
+            {
+              src: 'path/to/another-game-screenshot.jpg',
+              alt: 'Another game screenshot description',
+              caption: 'Optional caption for the second game screenshot',
+            },
+          ]
+        },
+        {
+          type: 'text', text: "I also love listening to music! Here's some I really like:"
+        },
+      ],
+    },
+  },
 
   /* ------------------------------------------------------------------------
      ADD A NEW TAB: uncomment, rename, done. It appears in the tab bar
