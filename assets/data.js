@@ -296,12 +296,12 @@ const TABS = [
         {
           type: 'photos', variant: 'games', photos: [
             {
-              src: '/Users/stevenyodice-smith/Desktop/Projects/Fall-2026-Personal-Site/destiny2.jpg',
+              src: 'assets/images/destiny2_art.jpg',
               alt: 'Destiny 2 Screenshot',
               caption: 'Screenshot from one of my favorite games, Destiny 2!',
             },
             {
-              src: '/Users/stevenyodice-smith/Desktop/Projects/Fall-2026-Personal-Site/deadlock_art.jpg',
+              src: 'assets/images/deadlock_art.jpg',
               alt: 'Deadlock Screenshot',
               caption: 'Screenshot from another game I enjoy playing, Deadlock!',
             },
