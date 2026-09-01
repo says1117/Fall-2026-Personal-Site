@@ -265,7 +265,6 @@ const TABS = [
           {
             src: 'assets/images/professional_photo.jpg',
             alt: 'Professional photo',
-            caption: 'Professional photo',
           },
           {
             src: 'assets/images/me_in_SC.jpeg',
@@ -291,12 +290,10 @@ const TABS = [
             {
               src: 'assets/images/Destiny_2_(artwork)2.jpg',
               alt: 'Destiny 2 Screenshot',
-              caption: 'Screenshot from one of my favorite games, Destiny 2!',
             },
             {
               src: 'assets/images/deadlock_art.jpg',
               alt: 'Deadlock Screenshot',
-              caption: 'Screenshot from another game I enjoy playing, Deadlock!',
             },
           ]
         },

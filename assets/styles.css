@@ -484,7 +484,7 @@ html[data-theme='light'] .tab[aria-selected='true'] { color: var(--surface); }
 .about__photo {
   position: relative;
   flex: 0 0 auto;
-  width: 160px;
+  height: 280px;
   cursor: pointer;
   transform: scale(0.85);
   z-index: 1;
@@ -492,25 +492,24 @@ html[data-theme='light'] .tab[aria-selected='true'] { color: var(--surface); }
 }
 
 .about__photo img {
-  width: 100%;
-  aspect-ratio: 3 / 4;
-  object-fit: cover;
+  height: 100%;
+  width: auto;
   display: block;
   border-radius: 8px;
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
 }
 
 .about__photo:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   z-index: 2;
 }
 
-.about__photos--games .about__photo {
-  width: 240px;
+.about__photos--games {
+  gap: 2rem;
 }
 
-.about__photos--games .about__photo img {
-  aspect-ratio: 16 / 9;
+.about__photos--games .about__photo {
+  height: 240px;
 }
 
 .about__spotify {
