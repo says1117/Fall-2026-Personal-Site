@@ -262,22 +262,17 @@ const TABS = [
         { type: 'text', text: 'I gravitate toward projects that force me to actually learn something instead of just applying what I already know.' },
         { type: 'text', text: 'Currently digging into frontend development, machine learning, robotics, and system design, plus a permanent side quest through LeetCode.' },
         {
-          type: 'photos', variant: 'me',//photos to be added in a scrollable collage
+          type: 'photos', variant: 'me',
             photos: [
           {
-            src: 'path/to/photo.jpg',
-            alt: 'Photo description',
-            caption: 'Optional caption for the photo',
+            src: 'assets/images/professional_photo.jpg',
+            alt: 'Professional photo',
+            caption: 'Professional photo',
           },
           {
-            src: 'path/to/another-photo.jpg',
-            alt: 'Another photo description',
-            caption: 'Optional caption for the second photo',
-          },
-          {
-            src: 'path/to/third-photo.jpg',
-            alt: 'Third photo description',
-            caption: 'Optional caption for the third photo',
+            src: 'assets/images/me_in_SC.jpeg',
+            alt: 'Me in South Carolina',
+            caption: 'Me in South Carolina',
           }
           ]
         },
