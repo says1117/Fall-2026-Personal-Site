@@ -257,15 +257,12 @@ const TABS = [
     label: 'About',
     note: 'A brief introduction about myself.',
     about: {
-      content: [
+    content: [
+        { type: 'text', text: 'Computer science student at the University of Central Florida, building things that turn real problems into working software.' },
+        { type: 'text', text: 'I gravitate toward projects that force me to actually learn something instead of just applying what I already know.' },
+        { type: 'text', text: 'Currently digging into frontend development, machine learning, robotics, and system design, plus a permanent side quest through LeetCode.' },
         {
-          type: 'text', text: 'I am a passionate computer science student at the Univeristy of Central Florida who enjoys working on challenging projects and learning new things that can help me grow as both a developer and person.'
-        },
-        {
-          type: 'text', text: 'Currently, I am learning more about Frontend Development, Machine Learning, Robotics, System Design, and new algorithms to help me in my leetcode grind!'
-        },
-        {
-          type: 'photos', //photos to be added in a scrollable collage
+          type: 'photos', variant: 'me',//photos to be added in a scrollable collage
             photos: [
           {
             src: 'path/to/photo.jpg',
@@ -297,7 +294,7 @@ const TABS = [
           type: 'text', text: 'The current games in my lineup are as follows:'
         },
         {
-          type: 'photos', photos: [
+          type: 'photos', variant: 'games', photos: [
             {
               src: 'path/to/game-screenshot.jpg',
               alt: 'Game screenshot description',
@@ -311,8 +308,11 @@ const TABS = [
           ]
         },
         {
-          type: 'text', text: "I also love listening to music! Here's some I really like:"
+          type: 'text', text: "I also love listening to music! Here's what I've been listening to lately:"
         },
+        {
+          type: 'spotify', 
+        }
       ],
     },
   },
