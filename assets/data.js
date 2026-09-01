@@ -46,7 +46,7 @@ const TABS = [
       },
       {
         title: 'Undergraduate Research Assistant',
-        subtitle: '',
+        subtitle: 'Shaojie Zhang Lab',
         meta: 'August 2026 — Present',
         tags: ['C, C++'],
         links: [{label: 'Website', url: 'http://genome.ucf.edu/index.php'}],
@@ -92,7 +92,7 @@ const TABS = [
         title: 'AutoBot',
         subtitle: 'AI-Integrated Robotics harnessed using Grok',
         tags: ['Python', 'C++', 'CUDA', 'YAML', 'Bash', 'Dockerfile'],
-        meta: "In Progess! Follow along on GitHub to see what I'm building! :)",
+        meta: "In Progress! Follow along on GitHub to see what I'm building! :)",
         links: [{ label: 'GitHub', url: 'https://github.com/says1117/AutoBot' }],
         points: [
           'Architected a dual-system agent stack pairing an LLM reasoning layer (xAI Grok) with learned control policies, using structured function calling for skill dispatch and closed-loop replanning on failure.',
@@ -122,7 +122,7 @@ const TABS = [
       },
       {
         title: 'Flowstate',
-        subtitle: 'Live status Crpyto tracking',
+        subtitle: 'Live status Crypto tracking',
         tags: ['Go', 'Python', 'LightGBM', 'Websocket'],
 
         points: [
@@ -167,7 +167,7 @@ const TABS = [
       },
       {
         title: 'KeyCursor',
-        subtitle: 'Real-time ASL interpreter, webcam to spoken word',
+        subtitle: 'Vim-style, keyboard-driven cursor control',
         tags: ['Python', 'Pynput', 'Pycairo'],
         links: [{ label: 'GitHub', url: 'https://github.com/mwhroom/KeyCursor'}],
         points: [
@@ -184,11 +184,9 @@ const TABS = [
         tags: ['CUDA'],
         links: [{ label: 'GitHub', url: 'https://github.com/says1117/cuda-nbody-simulator'}],
         points: [
-          'Developed Vim keyboard-driven cursor system enabling mouse-free navigation and interaction',
-          'Implemented global keyboard listeners using pynput to capture and process real-time input events',
-          'Designed graphical overlays and cursor rendering with pycairo for visual feedback and precision control',
-          'Collaborated within a 5-member agile team using Git for version control and coordinated feature integration',
-          'Engineered cross-platform compatibility across Windows and Linux environments through modular system abstraction'
+          'Implemented a CUDA-accelerated N-body gravity simulator, parallelizing pairwise force calculations across thousands of GPU threads',
+          'Used shared memory tiling to reduce global memory bandwidth pressure and speed up force accumulation',
+          'Simulated tens of thousands of interacting bodies in real time with a leapfrog/Verlet integration scheme',
         ],
       },
     ],
@@ -291,7 +289,7 @@ const TABS = [
         {
           type: 'photos', variant: 'games', photos: [
             {
-              src: 'assets/images/destiny2_art.jpg',
+              src: 'assets/images/Destiny_2_(artwork)2.jpg',
               alt: 'Destiny 2 Screenshot',
               caption: 'Screenshot from one of my favorite games, Destiny 2!',
             },
