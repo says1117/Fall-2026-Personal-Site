@@ -134,8 +134,41 @@
   function renderAboutSpotify(){
     const box = el('div', 'about__spotify');
     box.textContent = 'Loading recent tracks...';
-    //fetch assets/spotify.json goes here later
-    
+
+    fetch('assets/spotify.json')
+      .then((res) => res.json())
+      .then((tracks) => {
+        box.textContent = '';
+        if (!tracks || !tracks.length) {
+          box.textContent = 'No recent tracks.';
+          return;
+        }
+        tracks.forEach((track) => {
+          const a = el('a', 'about__track');
+          a.href = track.url;
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+
+          if (track.album_art) {
+            const img = el('img', 'about__track-art');
+            img.src = track.album_art;
+            img.alt = '';
+            img.loading = 'lazy';
+            a.append(img);
+          }
+
+          const info = el('div', 'about__track-info');
+          info.append(el('span', 'about__track-name', track.name));
+          info.append(el('span', 'about__track-artist', track.artist));
+          a.append(info);
+
+          box.append(a);
+        });
+      })
+      .catch(() => {
+        box.textContent = 'Couldn\'t load recent tracks.';
+      });
+
     return box;
   }
 

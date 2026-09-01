@@ -502,6 +502,59 @@ html[data-theme='light'] .tab[aria-selected='true'] { color: var(--surface); }
   transform: scale(1.2);
   z-index: 2;
 }
+
+.about__spotify {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+}
+
+.about__track {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  text-decoration: none;
+  color: inherit;
+  padding: 0.4rem;
+  border-radius: 8px;
+  transition: background 0.2s var(--ease);
+}
+
+.about__track:hover {
+  background: var(--line-soft);
+}
+
+.about__track-art {
+  width: 44px;
+  height: 44px;
+  border-radius: 6px;
+  object-fit: cover;
+  flex: 0 0 auto;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.about__track-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.about__track-name {
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.about__track-artist {
+  color: var(--muted);
+  font-size: 0.85rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 /* --- motion -------------------------------------------------------------- */
 
 @keyframes rise {
