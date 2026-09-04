@@ -1,5 +1,12 @@
 [
   {
+    "name": "Maladapted",
+    "artist": "Hail The Sun",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b27389134f2a635d4c80260317b4",
+    "url": "https://open.spotify.com/track/2cVIqVcQniMqce5hjEYrAQ",
+    "played_at": "2026-09-04T10:09:02.891Z"
+  },
+  {
     "name": "Legs",
     "artist": "Ghost Atlas",
     "album_art": "https://i.scdn.co/image/ab67616d0000b2736256cb2b752c506c7779a32d",
@@ -26,12 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b2733c8674afa47336f571b13ebd",
     "url": "https://open.spotify.com/track/0ghVICqc1IDXcaoY8AHUns",
     "played_at": "2026-09-03T20:51:35.088Z"
-  },
-  {
-    "name": "Hopeless",
-    "artist": "Too Close To Touch, TELLE",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b27311a0d0912eda4cdab55a67d8",
-    "url": "https://open.spotify.com/track/6fiCDOnHiXrGwuAGjcT4GA",
-    "played_at": "2026-09-03T20:47:37.371Z"
   }
 ]
