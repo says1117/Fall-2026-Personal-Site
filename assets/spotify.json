@@ -1,37 +1,37 @@
 [
   {
-    "name": "Maladapted",
+    "name": "Toxin",
+    "artist": "Donovan Melero",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b2731771e49c1858ec839442048e",
+    "url": "https://open.spotify.com/track/0DfMOc6xe3clHBxxLlbVH7",
+    "played_at": "2026-09-04T17:19:22.944Z"
+  },
+  {
+    "name": "MONOMANIA",
+    "artist": "The Word Alive",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273f2d23452cc4739a642664ad3",
+    "url": "https://open.spotify.com/track/2EvXWDkzqUuGanZgzYDgZE",
+    "played_at": "2026-09-04T17:09:58.750Z"
+  },
+  {
+    "name": "Warning from My Demons",
+    "artist": "SLAVES",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b27325d9c3799537cbf06ab5d88b",
+    "url": "https://open.spotify.com/track/1fdCcqDO4fyM1MOU0AsDc1",
+    "played_at": "2026-09-04T17:05:59.607Z"
+  },
+  {
+    "name": "Consumed With You",
     "artist": "Hail The Sun",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b27389134f2a635d4c80260317b4",
-    "url": "https://open.spotify.com/track/2cVIqVcQniMqce5hjEYrAQ",
-    "played_at": "2026-09-04T10:09:02.891Z"
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273f7bd430788b5615152d6497b",
+    "url": "https://open.spotify.com/track/1SVYWDZf4qi8GyCQZzJrAR",
+    "played_at": "2026-09-04T17:02:23.911Z"
   },
   {
-    "name": "Legs",
-    "artist": "Ghost Atlas",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b2736256cb2b752c506c7779a32d",
-    "url": "https://open.spotify.com/track/4WTByecPFVWmhnl60GprIu",
-    "played_at": "2026-09-03T21:05:46.734Z"
-  },
-  {
-    "name": "The Worst In Me",
-    "artist": "Bad Omens",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b273ef21fc72f79bbe39944c6dba",
-    "url": "https://open.spotify.com/track/3nRwDWuop6A8uaBmf4V73J",
-    "played_at": "2026-09-03T21:01:47.963Z"
-  },
-  {
-    "name": "Provider",
-    "artist": "Sleep Token",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b273882265cd9bdded9ea9a153b9",
-    "url": "https://open.spotify.com/track/7JVAVLkkhpKOp8g4jX5Z12",
-    "played_at": "2026-09-03T20:57:58.376Z"
-  },
-  {
-    "name": "Bulletproof Love",
-    "artist": "Pierce The Veil",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b2733c8674afa47336f571b13ebd",
-    "url": "https://open.spotify.com/track/0ghVICqc1IDXcaoY8AHUns",
-    "played_at": "2026-09-03T20:51:35.088Z"
+    "name": "HOLLOW",
+    "artist": "Execution Day",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b27318b3857536d85bcef47111e5",
+    "url": "https://open.spotify.com/track/2jPYsHFanS1lrfJngoUx3s",
+    "played_at": "2026-09-04T16:58:21.825Z"
   }
 ]
