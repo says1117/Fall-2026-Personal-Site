@@ -1,5 +1,12 @@
 [
   {
+    "name": "Fractals",
+    "artist": "Makari",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b2732e5ca6cec82aaddea74ab46d",
+    "url": "https://open.spotify.com/track/1t0xg6ZjFgNIoFo3VghulD",
+    "played_at": "2026-09-04T22:38:40.734Z"
+  },
+  {
     "name": "Voices",
     "artist": "Motionless In White",
     "album_art": "https://i.scdn.co/image/ab67616d0000b27320bfa6114be3fcada3b5b3e3",
@@ -26,12 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b273a81aba1785543095f3c56913",
     "url": "https://open.spotify.com/track/0DMU0QiSypeYxL6BYdxjcy",
     "played_at": "2026-09-04T20:04:47.342Z"
-  },
-  {
-    "name": "Noise",
-    "artist": "The Devil Wears Prada",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b2734b50b588c3142a93e0c4dc3e",
-    "url": "https://open.spotify.com/track/4cDGa3JhRfCAFnxHJdshp2",
-    "played_at": "2026-09-04T20:01:55.891Z"
   }
 ]
