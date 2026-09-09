@@ -4,6 +4,20 @@
     "artist": "Deftones",
     "album_art": "https://i.scdn.co/image/ab67616d0000b27373652b7a0dc388dd1d044b69",
     "url": "https://open.spotify.com/track/23ZfYXdy2deoaf4u1XObHZ",
+    "played_at": "2026-09-09T05:01:46.261Z"
+  },
+  {
+    "name": "Romantic Dreams",
+    "artist": "Deftones",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b27373652b7a0dc388dd1d044b69",
+    "url": "https://open.spotify.com/track/23ZfYXdy2deoaf4u1XObHZ",
+    "played_at": "2026-09-09T05:01:24.062Z"
+  },
+  {
+    "name": "Romantic Dreams",
+    "artist": "Deftones",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b27373652b7a0dc388dd1d044b69",
+    "url": "https://open.spotify.com/track/23ZfYXdy2deoaf4u1XObHZ",
     "played_at": "2026-09-09T05:01:24.062Z"
   },
   {
@@ -19,19 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b273e6f1c9becfcd16feaaae87a2",
     "url": "https://open.spotify.com/track/0TvQSgeyluz0j1BIopCso2",
     "played_at": "2026-09-09T04:46:19.282Z"
-  },
-  {
-    "name": "Sonya",
-    "artist": "Nova Charisma",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b273e637e79dc0a63c3202709869",
-    "url": "https://open.spotify.com/track/6N4kshzFC7M6yxjFZROmOd",
-    "played_at": "2026-09-09T04:34:10.010Z"
-  },
-  {
-    "name": "Built for Blame",
-    "artist": "Get Scared",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b2734c1e4c0b4e9363afd12b7b65",
-    "url": "https://open.spotify.com/track/0wkgNuLw2F5EOIrzOe1eOK",
-    "played_at": "2026-09-09T04:30:27.514Z"
   }
 ]
