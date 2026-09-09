@@ -4,6 +4,13 @@
     "artist": "Deftones",
     "album_art": "https://i.scdn.co/image/ab67616d0000b27373652b7a0dc388dd1d044b69",
     "url": "https://open.spotify.com/track/23ZfYXdy2deoaf4u1XObHZ",
+    "played_at": "2026-09-09T17:02:54.640Z"
+  },
+  {
+    "name": "Romantic Dreams",
+    "artist": "Deftones",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b27373652b7a0dc388dd1d044b69",
+    "url": "https://open.spotify.com/track/23ZfYXdy2deoaf4u1XObHZ",
     "played_at": "2026-09-09T05:01:46.261Z"
   },
   {
@@ -26,12 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b273032fd22bde573d0746c87352",
     "url": "https://open.spotify.com/track/6WBkSZbGBaIWnEgnMoXEJU",
     "played_at": "2026-09-09T04:49:51.504Z"
-  },
-  {
-    "name": "Sacred Organs",
-    "artist": "Ghost Atlas",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b273e6f1c9becfcd16feaaae87a2",
-    "url": "https://open.spotify.com/track/0TvQSgeyluz0j1BIopCso2",
-    "played_at": "2026-09-09T04:46:19.282Z"
   }
 ]
