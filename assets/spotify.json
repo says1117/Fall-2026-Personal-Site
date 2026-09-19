@@ -1,5 +1,12 @@
 [
   {
+    "name": "One and the Same",
+    "artist": "Speech Patterns",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b27379c44367d0a7c83b4dc3e1b2",
+    "url": "https://open.spotify.com/track/2ck2ogvgRYsP6tIoUN4pOO",
+    "played_at": "2026-09-19T09:53:20.499Z"
+  },
+  {
     "name": "Close 2 Me",
     "artist": "Dead Lakes",
     "album_art": "https://i.scdn.co/image/ab67616d0000b2735d01366431a7d52b062ec972",
@@ -26,12 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b273214f36231e97aeaff3c9d007",
     "url": "https://open.spotify.com/track/1Pbj0yuzySy2jYtp4I4H19",
     "played_at": "2026-09-19T07:25:10.846Z"
-  },
-  {
-    "name": "High Regard",
-    "artist": "Speech Patterns",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b27379c44367d0a7c83b4dc3e1b2",
-    "url": "https://open.spotify.com/track/1OIxLr1uCJSjBXnDrY38q4",
-    "played_at": "2026-09-19T07:20:23.363Z"
   }
 ]
