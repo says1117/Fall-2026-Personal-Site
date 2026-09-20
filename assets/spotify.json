@@ -1,5 +1,12 @@
 [
   {
+    "name": "Perfect Soul",
+    "artist": "Spiritbox",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b2733ec172b61734712f5f7c7676",
+    "url": "https://open.spotify.com/track/7FjRNlmPtWb1ra46t14rUN",
+    "played_at": "2026-09-20T17:52:28.755Z"
+  },
+  {
     "name": "Erase The Pain",
     "artist": "Palisades",
     "album_art": "https://i.scdn.co/image/ab67616d0000b2734972663daad4e580f37a47bc",
@@ -26,12 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b273307937c611e642d8c5008937",
     "url": "https://open.spotify.com/track/2a37b8UQxF9h2qC5D2POcX",
     "played_at": "2026-09-20T09:58:55.591Z"
-  },
-  {
-    "name": "Mourning Sickness",
-    "artist": "Hail The Sun",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b273307937c611e642d8c5008937",
-    "url": "https://open.spotify.com/track/2DPBUsI1DuXeGhnb0wxfcu",
-    "played_at": "2026-09-20T09:55:17.124Z"
   }
 ]
