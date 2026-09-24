@@ -1,5 +1,26 @@
 [
   {
+    "name": "Soap",
+    "artist": "Melanie Martinez",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b2733899712512f50a8d9e01e951",
+    "url": "https://open.spotify.com/track/03f7xZmt2wHCIDJBFPK8G4",
+    "played_at": "2026-09-24T03:53:18.865Z"
+  },
+  {
+    "name": "Close To Me",
+    "artist": "Ellie Goulding, Diplo, Swae Lee",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b2735f76dbd311a0782823550b30",
+    "url": "https://open.spotify.com/track/2GjMaJ7DacMIkgoe8oMXGg",
+    "played_at": "2026-09-24T03:49:48.773Z"
+  },
+  {
+    "name": "lying has to stop - clairo",
+    "artist": "yung nagi",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b27304236ab7984e829ae4434d1d",
+    "url": "https://open.spotify.com/track/1JHLKKsuijmNrkJxzexpiu",
+    "played_at": "2026-09-24T03:46:29.755Z"
+  },
+  {
     "name": "Bedsheet Tourniquet",
     "artist": "Ghost Atlas",
     "album_art": "https://i.scdn.co/image/ab67616d0000b273e787d72943b25f76de7cc906",
@@ -12,26 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b273e787d72943b25f76de7cc906",
     "url": "https://open.spotify.com/track/6v3tV5o95jmwQzGsae67GV",
     "played_at": "2026-09-22T16:32:29.025Z"
-  },
-  {
-    "name": "Tomato Red",
-    "artist": "Ghost Atlas",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b273e787d72943b25f76de7cc906",
-    "url": "https://open.spotify.com/track/4joXtZPPPcU9Ia722q7hyP",
-    "played_at": "2026-09-22T16:29:05.165Z"
-  },
-  {
-    "name": "Riding The Blindside",
-    "artist": "Ghost Atlas",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b273e787d72943b25f76de7cc906",
-    "url": "https://open.spotify.com/track/41CvzJFNiJdsJNUwJc9fO4",
-    "played_at": "2026-09-22T16:25:36.156Z"
-  },
-  {
-    "name": "Seeker (Stretch The Night)",
-    "artist": "Ghost Atlas",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b273e787d72943b25f76de7cc906",
-    "url": "https://open.spotify.com/track/67XwYTmct7IxVwNPJVidtW",
-    "played_at": "2026-09-22T16:21:14.196Z"
   }
 ]
