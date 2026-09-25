@@ -14,6 +14,13 @@
     "played_at": "2026-09-25T03:45:03.030Z"
   },
   {
+    "name": "All Is in Sync, and There's Nothing Left to Sing About",
+    "artist": "Ghost Atlas",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b2736256cb2b752c506c7779a32d",
+    "url": "https://open.spotify.com/track/6NPKJq8AUL4OBsuiEA4vUH",
+    "played_at": "2026-09-24T23:11:02.075Z"
+  },
+  {
     "name": "How Fleeting",
     "artist": "Time, The Valuator",
     "album_art": "https://i.scdn.co/image/ab67616d0000b2738b64b68d825403232b451892",
@@ -26,12 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b27339ddd781cb8a5ae7dfec2c4b",
     "url": "https://open.spotify.com/track/1ApqpnvrZFwiOqgTwROkCL",
     "played_at": "2026-09-24T23:03:43.135Z"
-  },
-  {
-    "name": "Hold On",
-    "artist": "Acres",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b273eb1cb37efd5c166d24d31819",
-    "url": "https://open.spotify.com/track/4szyuz8OAhkgX4cdO90kAZ",
-    "played_at": "2026-09-24T22:59:54.505Z"
   }
 ]
