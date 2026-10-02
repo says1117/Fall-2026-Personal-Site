@@ -43,16 +43,11 @@ const TABS = [
         title: 'Incoming Software Engineer Intern',
         subtitle: 'Limbitless Solutions',
         meta: 'August 2026 — Present',
-      },
-      {
-        title: 'Undergraduate Research Assistant',
-        subtitle: '',
-        meta: 'August 2026 — Present',
-        tags: ['C, C++'],
-        links: [{label: 'Website', url: 'http://genome.ucf.edu/index.php'}],
+        tags: ['Dart', 'Flutter'],
         points: [
-          'Diagnosed and fixed correctness bugs in a C++ implementation of the Positional Burrows–Wheeler Transform (PBWT) for genomic haplotype matching, validating output against ground-truth data across multiple match-length thresholds',
-          'Currently developing algorithms to identify long shared haplotype segments across large genomic cohorts',
+          'Upkeeping core infrastructure for internal company app in Dart/Flutter, including a login system, desktop client, and kiosk display, unifying tools used across the lab',
+          'Developed patient-facing and trials applications alongside a customization page and calendar system, extending the company app beyond internal tooling',
+          'Built and maintain a report API powering internal analytics, keeping tooling reliable and consistently online',
         ],
       },
       {
