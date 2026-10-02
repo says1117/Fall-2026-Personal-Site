@@ -87,7 +87,7 @@ const TABS = [
         title: 'AutoBot',
         subtitle: 'AI-Integrated Robotics harnessed using Grok',
         tags: ['Python', 'C++', 'CUDA', 'YAML', 'Bash', 'Dockerfile'],
-        meta: "In Progess! Follow along on GitHub to see what I'm building! :)",
+        meta: "In Progress! Follow along on GitHub to see what I'm building! :)",
         links: [{ label: 'GitHub', url: 'https://github.com/says1117/AutoBot' }],
         points: [
           'Architected a dual-system agent stack pairing an LLM reasoning layer (xAI Grok) with learned control policies, using structured function calling for skill dispatch and closed-loop replanning on failure.',
@@ -117,7 +117,7 @@ const TABS = [
       },
       {
         title: 'Flowstate',
-        subtitle: 'Live status Crpyto tracking',
+        subtitle: 'Live status Crypto tracking',
         tags: ['Go', 'Python', 'LightGBM', 'Websocket'],
 
         points: [
@@ -162,7 +162,7 @@ const TABS = [
       },
       {
         title: 'KeyCursor',
-        subtitle: 'Real-time ASL interpreter, webcam to spoken word',
+        subtitle: 'Vim-style, keyboard-driven cursor control',
         tags: ['Python', 'Pynput', 'Pycairo'],
         links: [{ label: 'GitHub', url: 'https://github.com/mwhroom/KeyCursor'}],
         points: [
@@ -179,11 +179,9 @@ const TABS = [
         tags: ['CUDA'],
         links: [{ label: 'GitHub', url: 'https://github.com/says1117/cuda-nbody-simulator'}],
         points: [
-          'Developed Vim keyboard-driven cursor system enabling mouse-free navigation and interaction',
-          'Implemented global keyboard listeners using pynput to capture and process real-time input events',
-          'Designed graphical overlays and cursor rendering with pycairo for visual feedback and precision control',
-          'Collaborated within a 5-member agile team using Git for version control and coordinated feature integration',
-          'Engineered cross-platform compatibility across Windows and Linux environments through modular system abstraction'
+          'Implemented a CUDA-accelerated N-body gravity simulator, parallelizing pairwise force calculations across thousands of GPU threads',
+          'Used shared memory tiling to reduce global memory bandwidth pressure and speed up force accumulation',
+          'Simulated tens of thousands of interacting bodies in real time with a leapfrog/Verlet integration scheme',
         ],
       },
     ],
@@ -245,6 +243,63 @@ const TABS = [
         ],
       },
     ],
+  },
+
+  {
+    id: 'about',
+    label: 'About',
+    note: 'A brief introduction about myself.',
+    about: {
+    content: [
+        { type: 'text', text: 'Computer science student at the University of Central Florida, building things that turn real problems into working software.' },
+        { type: 'text', text: 'I gravitate toward projects that force me to actually learn something instead of just applying what I already know.' },
+        { type: 'text', text: 'Currently digging into frontend development, machine learning, robotics, and system design, plus a permanent side quest through LeetCode.' },
+        {
+          type: 'photos', variant: 'me',
+            photos: [
+          {
+            src: 'assets/images/professional_photo.jpg',
+            alt: 'Professional photo',
+          },
+          {
+            src: 'assets/images/me_in_SC.jpeg',
+            alt: 'Me in South Carolina',
+            caption: 'Me in South Carolina',
+          }
+          ]
+        },
+        {
+          type: 'text', text: 'Beyond the workplace, I enjoy exploring new places in Central Florida, whether it be great, natural views, times with family and friends, or trying out new restaurants (the best).'
+        },
+        {
+          type: 'text', text: 'I also really enjoy going to the gym to physically challenge myself, and take pride in learning more about fitness and training (self proclaimed science-based lifter).'
+        },
+        {
+          type: 'text', text: 'When not working on projects, I enjoy spending time online playing games.'
+        },
+        {
+          type: 'text', text: 'The current games in my lineup are as follows:'
+        },
+        {
+          type: 'photos', variant: 'games', photos: [
+            {
+              src: 'assets/images/Destiny_2_(artwork)2.jpg',
+              alt: 'Destiny 2 Screenshot',
+            },
+            {
+              src: 'assets/images/deadlock_art.jpg',
+              alt: 'Deadlock Screenshot',
+            },
+          ]
+        },
+        {
+          type: 'text', text: "I also love listening to music! Here's what I've been listening to lately:"
+        },
+        {
+          type: 'spotify', 
+        }
+      ],
+    },
   },
 
   /* ------------------------------------------------------------------------

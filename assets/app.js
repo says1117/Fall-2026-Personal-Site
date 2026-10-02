@@ -105,6 +105,105 @@
     return wrap;
   }
 
+  function renderAboutText(block){
+    return el('p', 'about__text', block.text);
+  }
+
+  function renderAboutPhotos(block){
+
+    const strip = el('div', 'about__photos');
+    if(block.variant) {
+      strip.classList.add('about__photos--' + block.variant);
+    }
+    (block.photos || []).forEach((photo) => {
+      const figure = el('figure', 'about__photo');
+      const img = el('img');
+      img.src = photo.src;
+      img.alt = photo.alt || '';
+      img.loading = 'lazy';
+      figure.append(img);
+      if(photo.caption)
+        figure.append(el('figcaption', null, photo.caption));
+      strip.append(figure);
+    });
+    //initializes array of photos
+    initPhotoFocus(strip);
+    return strip;
+  }
+
+  function renderAboutSpotify(){
+    const box = el('div', 'about__spotify');
+    box.textContent = 'Loading recent tracks...';
+
+    fetch('assets/spotify.json')
+      .then((res) => res.json())
+      .then((tracks) => {
+        box.textContent = '';
+        if (!tracks || !tracks.length) {
+          box.textContent = 'No recent tracks.';
+          return;
+        }
+        tracks.forEach((track) => {
+          const a = el('a', 'about__track');
+          a.href = track.url;
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+
+          if (track.album_art) {
+            const img = el('img', 'about__track-art');
+            img.src = track.album_art;
+            img.alt = '';
+            img.loading = 'lazy';
+            a.append(img);
+          }
+
+          const info = el('div', 'about__track-info');
+          info.append(el('span', 'about__track-name', track.name));
+          info.append(el('span', 'about__track-artist', track.artist));
+          a.append(info);
+
+          box.append(a);
+        });
+      })
+      .catch(() => {
+        box.textContent = 'Couldn\'t load recent tracks.';
+      });
+
+    return box;
+  }
+
+  function renderAbout(about){
+    const wrap = el('div', 'about');
+    (about.content || []).forEach((block) => {
+      if(block.type === 'text'){
+        wrap.append(renderAboutText(block));
+      }
+      else if(block.type === 'photos'){
+        wrap.append(renderAboutPhotos(block));
+      }
+      else if(block.type === 'spotify'){
+        wrap.append(renderAboutSpotify());
+      }
+    });
+    return wrap;
+  }
+
+  function initPhotoFocus(strip){
+    const items = Array.from(strip.children);
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        entry.target.classList.toggle('is-active', entry.intersectionRatio > 0.6);
+      });
+    }, { root: strip, threshold: [0, 0.25, 0.5, 0.6, 0.75, 1]
+    });
+    items.forEach((item) => {
+      observer.observe(item);
+      item.addEventListener('click', () => {
+        item.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest'});
+      });
+    });
+  }
+
   /* ----------------------------------------------------------------- tabs */
 
   const tabsEl = $('#tabs');
@@ -141,7 +240,12 @@
       panel.append(el('h2', 'visually-hidden', tab.label));
 
       if (tab.note) panel.append(el('p', 'panel__note', tab.note));
-      (tab.entries || []).forEach((entry, n) => panel.append(renderEntry(entry, n)));
+      if (tab.about){
+        panel.append(renderAbout(tab.about));
+      }
+      else{
+        (tab.entries || []).forEach((entry, n) => panel.append(renderEntry(entry, n)));
+      }
 
       panelsEl.append(panel);
       panels.push(panel);
