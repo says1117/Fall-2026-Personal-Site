@@ -1,5 +1,12 @@
 [
   {
+    "name": "Foamposite Interlude",
+    "artist": "smokedope2016",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b2735d62d45587a94ccac6a7a9d0",
+    "url": "https://open.spotify.com/track/570sBmXNbXBHJDhXl84szQ",
+    "played_at": "2026-10-05T19:40:41.691Z"
+  },
+  {
     "name": "white tee",
     "artist": "Lil Peep, Lil Tracy",
     "album_art": "https://i.scdn.co/image/ab67616d0000b273baba0e58e707e9c1025b45ae",
@@ -26,12 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b27392d640136ac92c5702440ae3",
     "url": "https://open.spotify.com/track/65WRWvaBjrem841mjVxE9N",
     "played_at": "2026-10-05T03:48:06.668Z"
-  },
-  {
-    "name": "Red Tear Drop Goth Crip",
-    "artist": "Sickboyrari",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b273b7c362623515878c9ac0f0f3",
-    "url": "https://open.spotify.com/track/4HQ7URhv9cfd3EE3QhnlLk",
-    "played_at": "2026-10-05T03:45:37.403Z"
   }
 ]
