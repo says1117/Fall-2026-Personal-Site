@@ -4,6 +4,13 @@
     "artist": "Chief Keef, DJ Scream",
     "album_art": "https://i.scdn.co/image/ab67616d0000b2738cbee36452c01c8f06ce42b2",
     "url": "https://open.spotify.com/track/3lVPIF8KoWHrzRUGEp4v97",
+    "played_at": "2026-10-10T00:35:20.061Z"
+  },
+  {
+    "name": "Blew My High",
+    "artist": "Chief Keef, DJ Scream",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b2738cbee36452c01c8f06ce42b2",
+    "url": "https://open.spotify.com/track/3lVPIF8KoWHrzRUGEp4v97",
     "played_at": "2026-10-10T00:32:33.311Z"
   },
   {
@@ -26,12 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b2738cbee36452c01c8f06ce42b2",
     "url": "https://open.spotify.com/track/3lVPIF8KoWHrzRUGEp4v97",
     "played_at": "2026-10-10T00:22:27.085Z"
-  },
-  {
-    "name": "Blew My High",
-    "artist": "Chief Keef, DJ Scream",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b2738cbee36452c01c8f06ce42b2",
-    "url": "https://open.spotify.com/track/3lVPIF8KoWHrzRUGEp4v97",
-    "played_at": "2026-10-10T00:19:37.758Z"
   }
 ]
