@@ -1,5 +1,12 @@
 [
   {
+    "name": "Tec",
+    "artist": "Chief Keef",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b2734c93a28bf1c89d2912fd716c",
+    "url": "https://open.spotify.com/track/5pCoZdMqQxGOriGRS51zCR",
+    "played_at": "2026-10-12T03:16:46.569Z"
+  },
+  {
     "name": "No contempt",
     "artist": "Lelo",
     "album_art": "https://i.scdn.co/image/ab67616d0000b2730b199a675d452937743c6d33",
@@ -26,12 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b2736d6dd27bebeb12144009447c",
     "url": "https://open.spotify.com/track/7ln1mUNnphsNQc3itBjniP",
     "played_at": "2026-10-10T17:03:03.609Z"
-  },
-  {
-    "name": "Everyday",
-    "artist": "Chief Keef",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b273d12aac85fdc8f9eadeadd3fb",
-    "url": "https://open.spotify.com/track/2Br6z3GreF8mbHnMkyBYXi",
-    "played_at": "2026-10-10T16:59:13.812Z"
   }
 ]
