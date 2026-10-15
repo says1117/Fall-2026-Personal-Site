@@ -1,5 +1,19 @@
 [
   {
+    "name": "Made Your Mark",
+    "artist": "Hail The Sun",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273212221a0dffa730ba07a4de6",
+    "url": "https://open.spotify.com/track/1JV9bkbVj1ctA61WzVl7mQ",
+    "played_at": "2026-10-15T20:33:36.248Z"
+  },
+  {
+    "name": "Dead Messages",
+    "artist": "Hail The Sun",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b2730c6624da5287f9d3b96c8768",
+    "url": "https://open.spotify.com/track/6kCMI0NPb6EXKcWZVZm8Kh",
+    "played_at": "2026-10-15T13:01:15.943Z"
+  },
+  {
     "name": "Maladapted",
     "artist": "Hail The Sun",
     "album_art": "https://i.scdn.co/image/ab67616d0000b27389134f2a635d4c80260317b4",
@@ -19,19 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b273212221a0dffa730ba07a4de6",
     "url": "https://open.spotify.com/track/1JV9bkbVj1ctA61WzVl7mQ",
     "played_at": "2026-10-15T12:47:57.204Z"
-  },
-  {
-    "name": "Truth",
-    "artist": "PureSnow",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b273bef2d0ac70b7145a3a93ecb6",
-    "url": "https://open.spotify.com/track/7aybbQzXM7jKA0eHRb7jtd",
-    "played_at": "2026-10-15T12:43:59.825Z"
-  },
-  {
-    "name": "Palace 2",
-    "artist": "osk, PureSnow",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b273d4c6acc6c5bde59b5e9061c1",
-    "url": "https://open.spotify.com/track/5Ist0A5j7tYI3AIYuqY8i0",
-    "played_at": "2026-10-15T12:41:25.542Z"
   }
 ]
