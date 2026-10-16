@@ -1,5 +1,12 @@
 [
   {
+    "name": "Rich Without Selling Out",
+    "artist": "Essentxals",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b27356a1687f0289b9cb74c87471",
+    "url": "https://open.spotify.com/track/79P1NyoMz3nIWLwGQ4lNuY",
+    "played_at": "2026-10-16T02:05:23.136Z"
+  },
+  {
     "name": "Chasing",
     "artist": "Lelo",
     "album_art": "https://i.scdn.co/image/ab67616d0000b2738f2df8e16420bfead3849b56",
@@ -26,12 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b2730b86646731a089ad3eacf03a",
     "url": "https://open.spotify.com/track/7IQHsu30OzBpWfcQ8Ic6Nc",
     "played_at": "2026-10-16T00:43:11.386Z"
-  },
-  {
-    "name": "Practice What You Preach",
-    "artist": "This Armistice",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b2738df546a1c1064f24bd93d301",
-    "url": "https://open.spotify.com/track/5wS2XC3mn1g3mzsG2kac3e",
-    "played_at": "2026-10-16T00:38:41.156Z"
   }
 ]
