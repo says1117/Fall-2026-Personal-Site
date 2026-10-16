@@ -1,5 +1,12 @@
 [
   {
+    "name": "Chicken Dance - Original Version",
+    "artist": "The Chicken Dancers",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273fb087d8f2b4673b101762413",
+    "url": "https://open.spotify.com/track/00emsn5prvDCUILK013FpC",
+    "played_at": "2026-10-16T09:15:13.896Z"
+  },
+  {
     "name": "Rich Without Selling Out",
     "artist": "Essentxals",
     "album_art": "https://i.scdn.co/image/ab67616d0000b27356a1687f0289b9cb74c87471",
@@ -26,12 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b2737a9d3b08ffdbba264dc75f9b",
     "url": "https://open.spotify.com/track/1XZ4qHVc399QjjFaXdU9h8",
     "played_at": "2026-10-16T01:55:57.777Z"
-  },
-  {
-    "name": "Open Your Eyes And Look North",
-    "artist": "Dance Gavin Dance",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b2730b86646731a089ad3eacf03a",
-    "url": "https://open.spotify.com/track/7IQHsu30OzBpWfcQ8Ic6Nc",
-    "played_at": "2026-10-16T00:43:11.386Z"
   }
 ]
