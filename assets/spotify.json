@@ -7,6 +7,13 @@
     "played_at": "2026-10-18T00:28:55.389Z"
   },
   {
+    "name": "I'm Never Looking Back",
+    "artist": "PureSnow",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273393a891fb58fefc970be60b8",
+    "url": "https://open.spotify.com/track/5oJ0ALxhXxJaN3Veh8NNLO",
+    "played_at": "2026-10-18T00:28:55.389Z"
+  },
+  {
     "name": "I Wanna Be Honest",
     "artist": "PureSnow",
     "album_art": "https://i.scdn.co/image/ab67616d0000b2738f1ba7258f434ce2423c0cfc",
@@ -26,12 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b2738f1ba7258f434ce2423c0cfc",
     "url": "https://open.spotify.com/track/5anhQfzFw43g2yHDJ8tk8m",
     "played_at": "2026-10-16T18:55:13.395Z"
-  },
-  {
-    "name": "Chasing",
-    "artist": "Lelo",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b2738f2df8e16420bfead3849b56",
-    "url": "https://open.spotify.com/track/6R1lKtITVkOQkqo9pANPkL",
-    "played_at": "2026-10-16T18:52:46.141Z"
   }
 ]
