@@ -1,5 +1,19 @@
 [
   {
+    "name": "SHARON TATE",
+    "artist": "WITCHGOD",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b2736946f2eed16fd619b90b17e7",
+    "url": "https://open.spotify.com/track/1sc3IhXv1Z5RkfAHjaBo3R",
+    "played_at": "2026-10-26T21:34:23.861Z"
+  },
+  {
+    "name": "LULLABY",
+    "artist": "PureSnow, Varg\u00b2\u2122",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b27384f4a88c0bc15518cbd66687",
+    "url": "https://open.spotify.com/track/0h71dNCG4BlYOM2laZ62UO",
+    "played_at": "2026-10-26T21:30:31.264Z"
+  },
+  {
     "name": "I Been A Star",
     "artist": "PureSnow",
     "album_art": "https://i.scdn.co/image/ab67616d0000b273d37d72ebb60d5872f92a6f4b",
@@ -19,19 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b273d37d72ebb60d5872f92a6f4b",
     "url": "https://open.spotify.com/track/5VHPJ2CBO66e93OXILG9Qc",
     "played_at": "2026-10-26T21:21:12.387Z"
-  },
-  {
-    "name": "Over",
-    "artist": "PureSnow",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b2733e3113cea68cef3c55b42bc6",
-    "url": "https://open.spotify.com/track/6tO72vbUJQu80CmuxNqFRB",
-    "played_at": "2026-10-26T21:17:49.270Z"
-  },
-  {
-    "name": "CONTROL",
-    "artist": "PureSnow, Varg\u00b2\u2122",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b27384f4a88c0bc15518cbd66687",
-    "url": "https://open.spotify.com/track/2Bmlj9KAPuAe4V8UfmbPSW",
-    "played_at": "2026-10-26T21:14:27.873Z"
   }
 ]
