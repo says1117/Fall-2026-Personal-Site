@@ -4,6 +4,13 @@
     "artist": "PureSnow",
     "album_art": "https://i.scdn.co/image/ab67616d0000b273d37d72ebb60d5872f92a6f4b",
     "url": "https://open.spotify.com/track/5VHPJ2CBO66e93OXILG9Qc",
+    "played_at": "2026-10-27T04:10:44.874Z"
+  },
+  {
+    "name": "I Been A Star",
+    "artist": "PureSnow",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273d37d72ebb60d5872f92a6f4b",
+    "url": "https://open.spotify.com/track/5VHPJ2CBO66e93OXILG9Qc",
     "played_at": "2026-10-27T04:08:06.337Z"
   },
   {
@@ -26,12 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b273d37d72ebb60d5872f92a6f4b",
     "url": "https://open.spotify.com/track/5VHPJ2CBO66e93OXILG9Qc",
     "played_at": "2026-10-27T03:57:56.620Z"
-  },
-  {
-    "name": "Over",
-    "artist": "PureSnow",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b2733e3113cea68cef3c55b42bc6",
-    "url": "https://open.spotify.com/track/6tO72vbUJQu80CmuxNqFRB",
-    "played_at": "2026-10-27T03:54:33.488Z"
   }
 ]
