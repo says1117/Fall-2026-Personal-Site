@@ -1,5 +1,12 @@
 [
   {
+    "name": "crush",
+    "artist": "2hollis",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b2733db98a6290b17283bd2a3186",
+    "url": "https://open.spotify.com/track/2h7vLf7jv2KsRb7fV77w5H",
+    "played_at": "2026-11-07T07:47:30.609Z"
+  },
+  {
     "name": "No Wind Resistance!",
     "artist": "Kinneret",
     "album_art": "https://i.scdn.co/image/ab67616d0000b2733a6b9c436688d0b6ecdb13f5",
@@ -26,12 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b2734123c0f9b6689205d20f350f",
     "url": "https://open.spotify.com/track/61bwFjzXGG1x2aZsANdLyl",
     "played_at": "2026-11-07T07:27:38.684Z"
-  },
-  {
-    "name": "#BrooklynBloodPop!",
-    "artist": "SyKo",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b273383b4453fcd90c7b8aacd58d",
-    "url": "https://open.spotify.com/track/5tDbyeaCvxjNCBcupQucGo",
-    "played_at": "2026-11-07T07:25:43.728Z"
   }
 ]
