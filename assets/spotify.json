@@ -1,5 +1,12 @@
 [
   {
+    "name": "MY FAVORITE LIE",
+    "artist": "LIL FITTED CAP, smokedope2016",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273ee7b6ae8e2fa2842b80cfb7c",
+    "url": "https://open.spotify.com/track/7ujgRlUWZ5CzPPGUhyx2Iv",
+    "played_at": "2026-11-13T00:23:54.724Z"
+  },
+  {
     "name": "Agony",
     "artist": "Yung Lean",
     "album_art": "https://i.scdn.co/image/ab67616d0000b273543533e92a8a336dee9e9bd1",
@@ -26,12 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b273a628d9485bccd45e55407a48",
     "url": "https://open.spotify.com/track/34t2HJOv4CeAfOfvrUeLki",
     "played_at": "2026-11-13T00:10:52.011Z"
-  },
-  {
-    "name": "Merch",
-    "artist": "smokedope2016",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b2735d62d45587a94ccac6a7a9d0",
-    "url": "https://open.spotify.com/track/6Zt2ylBJgvZQShRECn88jR",
-    "played_at": "2026-11-13T00:07:39.814Z"
   }
 ]
