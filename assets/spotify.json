@@ -1,5 +1,12 @@
 [
   {
+    "name": "Highway Hex",
+    "artist": "Ghost Mountain, Sematary",
+    "album_art": "https://i.scdn.co/image/ab67616d0000b273cd62f8315e0e5b7bfdba7859",
+    "url": "https://open.spotify.com/track/2vfEXLJbi4jEnKG2OFkYC3",
+    "played_at": "2026-11-19T02:26:08.990Z"
+  },
+  {
     "name": "Star Shopping",
     "artist": "Lil Peep",
     "album_art": "https://i.scdn.co/image/ab67616d0000b2732568a5b51d322cbd987106f7",
@@ -26,12 +33,5 @@
     "album_art": "https://i.scdn.co/image/ab67616d0000b2735e9679329a3a47fab9aa0a5c",
     "url": "https://open.spotify.com/track/69FtMACkoNkgxfxDWvFMCu",
     "played_at": "2026-11-18T10:54:46.143Z"
-  },
-  {
-    "name": "Goat Man",
-    "artist": "Sematary, Ghost Mountain",
-    "album_art": "https://i.scdn.co/image/ab67616d0000b2730a8b4efae8758c6739c8c815",
-    "url": "https://open.spotify.com/track/1YDKT87oLjaLIc5ytsJyec",
-    "played_at": "2026-11-18T10:51:14.634Z"
   }
 ]
